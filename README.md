@@ -1,2 +1,2 @@
 # Odds
-Project from textbook by Paul Berry
+Projects from textbook "Head First Python" 2nd Edition by Paul Barry
