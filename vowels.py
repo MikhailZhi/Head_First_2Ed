@@ -1,7 +1,26 @@
-print('Searching letters in words\n')
+for num in 'Hello!':
+    print (num)
+print ()
+
 
 vowels = ['a', 'e', 'i', 'o', 'u']
-word = 'Milliways'
-for letter in word:
+word_1 = input ('Provide a word to search for vowels: ')
+found = []
+
+
+for letter in word_1:
     if letter in vowels:
-        print(letter)
+        if letter not in found:
+            found.append (letter)
+
+
+print ()
+print (len(found))
+print ()
+
+
+for letter in found:
+    print (letter)
+
+print ()
+print ("That's all!")
